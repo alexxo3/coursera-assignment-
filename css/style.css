@@ -1,0 +1,50 @@
+
+@media (min-width:992px) {
+* {
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+}
+
+section {
+    background-color: grey;
+    width: 30%;
+    height: 200px;
+    border: 1px solid black;
+    float: left;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: 20px;
+    position: relative;
+    
+    
+}
+
+h2 {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    clear: both;
+}
+p {
+    position: absolute;
+    top: 30px;
+}
+.title1 {
+    background-color: greenyellow;
+    margin-bottom: 5px;
+    clear: both;
+}
+.title2 {
+    background-color: yellow;
+    margin-bottom: 5px;
+}
+.title3 {
+    background-color: hotpink;
+    margin-bottom: 5px;
+}
+
+
+
+}
